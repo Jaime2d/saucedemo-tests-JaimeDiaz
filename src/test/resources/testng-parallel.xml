@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--
+    PARALLEL EXECUTION MODE
+
+    Usage: For CI/CD and faster test execution
+    Run: mvn clean test -DsuiteXmlFile=testng-parallel.xml
+
+    Configuration:
+    - parallel="methods": Run test methods in parallel
+    - thread-count="3": Use 3 parallel threads (adjust based on your machine)
+    - verbose="1": Standard logging
+    - data-provider-thread-count="3": DataProvider parallelization
+
+    Notes:
+    - Increase thread-count for more powerful machines (e.g., 5-10)
+    - For macOS ARM, recommended thread-count: 3-5
+    - Each thread gets its own WebDriver instance (thread-safe)
+-->
+<suite name="Sauce Demo Test Suite - PARALLEL MODE"
+       parallel="methods"
+       thread-count="3"
+       data-provider-thread-count="3"
+       verbose="1">
+
+    <test name="Login Tests - Parallel">
+        <classes>
+            <class name="com.jaime.automation.tests.LoginTests"/>
+        </classes>
+    </test>
+
+</suite>
