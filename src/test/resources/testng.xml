@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sauce Demo Test Suite" parallel="methods" thread-count="3">
+
+    <!-- We will add test classes later -->
+    <test name="Regression Suite">
+        <classes>
+            <class name="com.jaime.automation.tests.LoginTests"/>
+        </classes>
+    </test>
+
+</suite>
