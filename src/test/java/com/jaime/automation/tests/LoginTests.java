@@ -21,6 +21,7 @@ public class LoginTests extends BaseTest {
      * IMPORTANT: Removed 'parallel = true' attribute to avoid conflicts with TestNG XML parallelization.
      * Parallelization is now controlled solely by the TestNG suite configuration (testng.xml or testng-parallel.xml).
      * This ensures predictable thread management and avoids race conditions.
+     *
      */
     @DataProvider(name = "acceptedUsers")
     public Object[][] acceptedUsers() {
