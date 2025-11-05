@@ -1,4 +1,4 @@
-package driver;
+package com.jaime.automation.driver;
 /*
 * We use this ENUM to normalize the browser name and set Chrome as the default browser.
 */

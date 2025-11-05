@@ -1,10 +1,12 @@
-package driver;
+package com.jaime.automation.driver;
 
-import driver.strategy.BrowserStrategy;
-import driver.strategy.ChromeStrategy;
-import driver.strategy.FirefoxStrategy;
+import com.jaime.automation.driver.strategy.BrowserStrategy;
+import com.jaime.automation.driver.strategy.ChromeStrategy;
+import com.jaime.automation.driver.strategy.FirefoxStrategy;
 import org.openqa.selenium.WebDriver;
-
+/*
+This controller manages, creates, delivers, and closes the WebDriver for each thread.
+ */
 public class DriverManager {
 
     // Singleton
