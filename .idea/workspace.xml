@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cda38521-09de-4aee-8743-000e4817337c" name="Changes" comment="">
+    <list default="true" id="cda38521-09de-4aee-8743-000e4817337c" name="Changes" comment="Commit con tests exitosos">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jaime/automation/runners/CucumberTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jaime/automation/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jaime/automation/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/BrowserType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/strategy/BrowserStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/strategy/BrowserStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/strategy/ChromeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/strategy/ChromeStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/strategy/FirefoxStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaime/automation/driver/strategy/FirefoxStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaime/automation/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaime/automation/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jaime/automation/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaime/automation/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jaime/automation/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaime/automation/pages/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jaime/automation/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jaime/automation/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jaime/automation/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jaime/automation/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jaime2d&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jaime2d/saucedemo-tests-JaimeDiaz.git&quot;,
+    &quot;accountId&quot;: &quot;a683465e-46f8-472a-85c0-823b5271a1b1&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -103,6 +113,35 @@
       <option name="presentableId" value="Default" />
       <updated>1762360640369</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit con tests exitosos">
+      <option name="closed" value="true" />
+      <created>1762375570526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762375570526</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit con tests exitosos">
+      <option name="closed" value="true" />
+      <created>1762375634631</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762375634631</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit con tests exitosos">
+      <option name="closed" value="true" />
+      <created>1762375684913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762375684913</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit con tests exitosos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit con tests exitosos" />
   </component>
 </project>

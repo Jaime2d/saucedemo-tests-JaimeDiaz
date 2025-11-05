@@ -35,6 +35,35 @@ public class DriverManager {
         return d;
     }
 
+    /**
+     * Static convenience method for Cucumber steps and other contexts.
+     * Returns the thread-local WebDriver instance.
+     *
+     * @return WebDriver for current thread
+     * @throws IllegalStateException if WebDriver not started for this thread
+     */
+    public static WebDriver getDriverStatic() {
+        return getInstance().getDriver();
+    }
+
+    /**
+     * Static convenience method for Cucumber hooks.
+     * Starts a new WebDriver for the current thread.
+     *
+     * @param type Browser type to start
+     */
+    public static void startDriver(BrowserType type) {
+        getInstance().start(type);
+    }
+
+    /**
+     * Static convenience method for Cucumber hooks.
+     * Alias for stop() - quits the WebDriver for the current thread.
+     */
+    public static void quitDriver() {
+        getInstance().stop();
+    }
+
     public void stop() {
         WebDriver d = threadDriver.get();
         if (d != null) {

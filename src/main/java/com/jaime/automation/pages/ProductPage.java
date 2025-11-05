@@ -19,4 +19,12 @@ public class ProductPage extends BasePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(HEADER_TITLE));
         return driver.findElement(HEADER_TITLE).getText().trim();
     }
+
+    /**
+     * Alias for getHeaderText() - for Cucumber step compatibility.
+     * @return The app logo text ("Swag Labs")
+     */
+    public String getAppLogoText() {
+        return getHeaderText();
+    }
 }

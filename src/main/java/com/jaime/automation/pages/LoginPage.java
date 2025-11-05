@@ -156,9 +156,33 @@ public class LoginPage extends BasePage {
         return this;
     }
 
+    /**
+     * Convenience method for Cucumber/BDD: login with username and password.
+     * Performs complete login action: type username → type password → click login.
+     *
+     * @param username The username to enter
+     * @param password The password to enter
+     * @return this LoginPage for method chaining
+     */
+    public LoginPage login(String username, String password) {
+        ensureOnLogin();
+        typeUsername(username);
+        typePassword(password);
+        clickLogin();
+        return this;
+    }
+
     /** Get error banner text after a failed login. */
     public String getErrorText() {
         WebElement e = wait.until(ExpectedConditions.visibilityOfElementLocated(ERROR_MESSAGE));
         return e.getText().trim();
+    }
+
+    /**
+     * Alias for getErrorText() - for Cucumber step compatibility.
+     * @return Error message text
+     */
+    public String getErrorMessage() {
+        return getErrorText();
     }
 }
