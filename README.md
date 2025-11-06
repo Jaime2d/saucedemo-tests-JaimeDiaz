@@ -33,3 +33,19 @@ To perform the task use the various of additional options:
   Strategy; [Optional] 
   Test automation approach: BDD; Assertions: AssertJ; 
   [Optional] Loggers: SLF4J.
+
+## Specific instructions for running this project
+  Run tests using Maven from the project root:
+
+**Sequential execution:** mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
+
+
+**Parallel execution (multiple browsers/threads):** mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng-parallel.xml
+
+
+**Parallel execution in Firefox:**
+mvn clean test -Dbrowser=firefox -Dsurefire.suiteXmlFiles=src/test/resources/testng-parallel.xml
+
+**Cucumber**
+mvn test -Dcucumber.features=src/test/resources/features/login.feature
+
